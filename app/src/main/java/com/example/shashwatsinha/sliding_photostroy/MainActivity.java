@@ -22,7 +22,8 @@ public class MainActivity extends Activity implements ScrollChangeListener {
         setContentView(R.layout.activity_main);
         dm = getApplicationContext().getResources().getDisplayMetrics();
         Log.d("shashwat", "Printing the dm value " + dm.density);
-        view = (View) findViewById(R.id.transparent_view);
+       
+
         //CustomScrollView customScrollView = (CustomScrollView) findViewById(R.id.custom_scroll);
         // customScrollView.setmScrollChangeListener(this);
         //customScrollView.setVerticalFadingEdgeEnabled(false);
